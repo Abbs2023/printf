@@ -1,14 +1,14 @@
 #include "main.h"
 
-/************************* WRITE HANDLE *************************/
+/**** WRITES THE HANDLES OF MY PROJECT ****/
 /**
- * handle_write_char - Prints a string
- * @c: char types.
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags.
- * @width: get width.
- * @precision: precision specifier
- * @size: Size specifier
+ * handle_write_char - This prints a string in my project
+ * @c: The char types in my project
+ * @buffer: A buffer array that handles the print
+ * @flags: This calculates active flags.
+ * @width: This gets width in my project
+ * @precision: The precision specifiers in my project
+ * @size: The size specifiers in my project
  *
  * Return: Number of chars printed.
  */
@@ -44,16 +44,16 @@ int handle_write_char(char c, char buffer[],
 	return (write(1, &buffer[0], 1));
 }
 
-/************************* WRITE NUMBER *************************/
+/***** WRITES NUMBER FOR MY PROJECT *****/
 /**
- * write_number - Prints a string
- * @is_negative: Lista of arguments
- * @ind: char types.
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
- * @precision: precision specifier
- * @size: Size specifier
+ * write_number - This prints a string in my project
+ * @is_negative: The lista of arguments in my project
+ * @ind: The char types in my project
+ * @buffer: A buffer array that handles print
+ * @flags: This calculates the active flags in my project
+ * @width: This gets width in my project
+ * @precision: The precision specifiers in my project
+ * @size: The size specifiers in my project
  *
  * Return: Number of chars printed.
  */
@@ -138,14 +138,14 @@ int write_num(int ind, char buffer[],
 }
 
 /**
- * write_unsgnd - Writes an unsigned number
- * @is_negative: Number indicating if the num is negative
+ * write_unsgnd - Writes an unsigned number in my project
+ * @is_negative: The number indicating if the num is negative
  * @ind: Index at which the number starts in the buffer
- * @buffer: Array of chars
- * @flags: Flags specifiers
- * @width: Width specifier
- * @precision: Precision specifier
- * @size: Size specifier
+ * @buffer: An array of chars
+ * @flags: The flags specifiers in my project
+ * @width: The Width specifiers in my project
+ * @precision: The Precision specifier in my project
+ * @size: The size specifier in my project
  *
  * Return: Number of written chars.
  */
@@ -196,15 +196,15 @@ int write_unsgnd(int is_negative, int ind,
 }
 
 /**
- * write_pointer - Write a memory address
- * @buffer: Arrays of chars
- * @ind: Index at which the number starts in the buffer
- * @length: Length of number
- * @width: Wwidth specifier
- * @flags: Flags specifier
- * @padd: Char representing the padding
- * @extra_c: Char representing extra char
- * @padd_start: Index at which padding should start
+ * write_pointer - Writes a memory address in my project
+ * @buffer: An arrays of chars in my project
+ * @ind: The index at which the number starts in the buffer
+ * @length: The length of numbers in my project
+ * @width: The width specifiers in my project
+ * @flags: The flags specifiers in my project
+ * @padd: Char representing the padding in my project
+ * @extra_c: Char representing extra char in my project
+ * @padd_start: The index at which padding should start
  *
  * Return: Number of written chars.
  */

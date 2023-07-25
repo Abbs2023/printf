@@ -1,10 +1,10 @@
-include "main.h"
+#include "main.h"
 void print_buffer(char buffer[], int *buff_ind);
 /**
- * _printf - Printf functions for my assignment
+ * _printf - Printf functions for my projects
  *
- * @format: formats.
- * Return: Printed chars for peter projects.
+ * @format: formats for my project
+ * Return: Printed chars for my projects.
  */
 int _printf(const char *format, ...)
 {
@@ -51,8 +51,8 @@ int _printf(const char *format, ...)
 	return (printed_chars);
 }
 /**
- * print_buffer - Prints the most for contents of the buffer in our code
- * @buffer: Array of char.
+ * print_buffer - This prints the contents of the buffer as long as it exists
+ * @buffer: An array of chars in my project
  * @buff_ind: Index at which to add next char, to represents the length
  */
 void print_buffer(char buffer[], int *buff_ind)
